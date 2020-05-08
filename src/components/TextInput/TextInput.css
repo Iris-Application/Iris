@@ -1,4 +1,8 @@
 
+  .form {
+    position:absolute;
+    bottom: 0;
+  }
   
   .input {
     border: none;
@@ -28,4 +32,10 @@
   .send-btn:hover {
     background-color: rgb(53, 82, 126);
     cursor: pointer;
+  }
+
+  @media (min-width:48em) {
+    .form {
+      width: 85vw;
+    }
   }

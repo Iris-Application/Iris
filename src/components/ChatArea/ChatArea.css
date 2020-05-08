@@ -5,6 +5,7 @@ h2 {
 .main-container {
   display: grid;
   grid-template-columns: 1fr 6fr;
+  border-bottom: 1px solid #4D78B7;
   height: 100vh;
 }
 .side-bar-Container {
@@ -18,7 +19,7 @@ h2 {
   }
   
   
-  @media (min-width: 320px) and (max-width: 480px) {
+  @media (max-width: 42em) {
     .side-bar-Container {
       height: 100%;
     }
