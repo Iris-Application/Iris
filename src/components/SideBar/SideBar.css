@@ -41,6 +41,9 @@
 
 @media (max-width: 48em){
   .SideBar {
-    display:none;
+    font-size: 0.8em;
+  }
+  .side-bar-Container {
+    padding-left: 0.3em;
   }
 }
