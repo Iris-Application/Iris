@@ -1,0 +1,31 @@
+
+  
+  .input {
+    border: none;
+    border-radius: 0;
+    padding: 0.5em 1em;
+    width: 80%;
+    font-size: 1.2em;
+    border-top: 1px solid #D3D3D3;
+  }
+  
+  input:focus, textarea:focus, select:focus{
+    outline: none;
+  }
+  
+  .send-btn {
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    background: #4D78B7;
+    padding: 0.7em 0.5em;
+    display: inline-block;
+    border: 0.5px solid #4D78B7;
+    width: 20%;
+    font-size:1em;
+    text-align: center;
+  }
+  .send-btn:hover {
+    background-color: rgb(53, 82, 126);
+    cursor: pointer;
+  }

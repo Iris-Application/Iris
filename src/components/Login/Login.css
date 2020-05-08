@@ -1,0 +1,128 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.login-page-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 0em;   
+}
+
+.login-container {
+  color: #08090D;
+  margin: 0 auto;
+  text-align: center;
+  width:70%;
+  background-color: white;
+  height: 100vh;
+  padding: 2.5em;
+}
+
+.signup-container {
+  background-color: #FFDDBA ;
+  padding: 2em 0;
+}
+
+.login-image {
+  width: 100%;
+}
+
+.login-input {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.login-input::placeholder {
+  color: #bbb;
+}
+
+.heading {
+  font-size: 2.5em;
+  padding-bottom: 10px;
+}
+
+.heading span {
+  font-size: 0.5em;
+  display: block;
+  font-weight: normal;
+  padding-bottom: 1em;
+}
+
+.signup-container .heading, .signup-container p , .signup-container .signup {
+  width:50%;
+  margin: 0 auto;
+}
+
+.signup-container p {
+  margin-bottom: 2em;
+}
+
+.button.login {
+  background-color: #9B2C5F;
+  color:white;
+  font-size: 1em;
+  width: 15em;
+
+}
+
+.button.signup {
+  background-color: #4D78B7;
+  color:white;
+  font-size: 1em;
+  display: block;
+  width: 15em;
+}
+
+.button.signup:hover {
+  background-color:rgb(63, 97, 150);
+  cursor: pointer;
+}
+
+.button.login:hover {
+  background-color: rgb(88, 25, 55);
+  cursor: pointer;
+}
+
+.forgot {
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.button {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+    margin-top: 20px;
+}
+
+
+@media (max-width: 64em) {
+  .login-page-container{
+    display: block;
+  }
+
+  .signup-container {
+    display: none;
+  }
+
+  .login-container {
+    margin: 0 auto;
+
+  }
+}

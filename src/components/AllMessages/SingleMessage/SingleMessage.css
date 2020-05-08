@@ -1,0 +1,46 @@
+.text-box {
+  background: #F3F3F3;
+  border-radius: 1.4em;
+  padding: 0.2em 2em;
+  color: white;
+  display: inline-block;
+  max-width: 80%;
+  font-size: 0.9em;
+  margin-bottom: 1.5em;
+}
+
+.text {
+  width: 100%;
+  float: left;
+  font-size: 1.1em;
+  word-wrap: break-word;
+  color: #353535;
+}
+
+.text img {
+  vertical-align: middle;
+}
+
+.text-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 5%;
+  justify-content: flex-start;
+}
+
+.sent-text {
+  text-transform: capitalize;
+  color: #828282;
+  font-size: 0.9em;
+  padding-right:1em;
+  letter-spacing: 0.3px;
+}
+
+.background-pink {
+  background: #FFDDBA;
+  color:#353535;
+}
+
+.background-light {
+  background: #F3F3F3;
+}
