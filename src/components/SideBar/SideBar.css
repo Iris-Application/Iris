@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 .SideBar {
   color: white;
   padding: 1em;
@@ -16,10 +18,7 @@
 .SideBar h1 {
   font-size: 1.5em;
   margin-bottom:2em;
-  background: linear-gradient(90deg, rgba(246,230,38,1) 0%, rgba(254,182,66,1) 35%, rgba(255,132,0,1) 67%, rgba(255,68,0,1) 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-
+  font-family: 'Abril Fatface', cursive;
 }
 
 .SideBar h2 {
@@ -38,4 +37,10 @@
 
 .fa-user {
   padding-right: 0.5em;
+}
+
+@media (max-width: 48em){
+  .SideBar {
+    display:none;
+  }
 }
