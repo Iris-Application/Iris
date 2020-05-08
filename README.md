@@ -2,7 +2,7 @@
 
 A slack like application developed using ReactJs and Socket Io.
 
-# Table of Content
+## Table of Content
 1. [ Group. ](#group)
 2. [ Install. ](#install)
 3. [ Run Project. ](#run-project)
@@ -47,6 +47,6 @@ already been submitted.
 - Use commit message to close number
 - Submit a [pull request](https://help.github.com/articles/using-pull-requests/).
 
-### <a name="specifications"/>Project specifications
+## <a name="specifications"/>Project specifications
  Iris app has been designed as a communication app. It starts with a login page where users should enter their usernames and the channel that they want to join in.<br/>
  It is a real-time app which means multiple users are able to send messages to eachother and view the messages instantly. Users are informed if a user joins the channel or leaves it. Users should enter the same channel name to be able to chat and send messages to one another.
