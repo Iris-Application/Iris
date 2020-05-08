@@ -16,6 +16,8 @@ h2 {
   
   .chat-area-container {
     background: #FFFFFF;
+    height: 90vh;
+    overflow-y: scroll;
   }
   
   
