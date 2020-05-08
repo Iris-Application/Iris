@@ -16,6 +16,11 @@
   input:focus, textarea:focus, select:focus{
     outline: none;
   }
+
+  .input::placeholder {
+    font-size: 0.8em;
+    color: #333333;
+  }
   
   .send-btn {
     color: #fff;
@@ -38,4 +43,5 @@
     .form {
       width: 85vw;
     }
+
   }

@@ -1,7 +1,6 @@
 import React from 'react'
 
 import './SideBar.css'
-import appLogo from '../../Images/logo.png'
 
 const SideBar = ({ users }) => (
 
