@@ -7,7 +7,7 @@ const SideBar = ({ users }) => (
 
             <div className="SideBar">
                 <div>
-                    <img src={appLogo} className="logo" />  
+                    <h1>Iris App</h1> 
                 </div>
                 {
                     users
